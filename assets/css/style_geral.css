@@ -1,0 +1,61 @@
+/* CORPO PRINCIPAL */
+body, html {
+    background: #0055FF;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cartao {
+    width: 940px;
+    height: 540px;
+    background: whitesmoke;
+    box-shadow: 20px 20px #000000;
+    border: solid 3px #000000;
+}
+
+/* NAVEGACAO */
+.cabecalho {
+    position: relative;
+}
+
+.cabecalho .navegacao {
+    padding: 50px;
+    text-align: center;
+}
+
+.navegacao li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navegacao a {
+    text-transform: lowercase;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navegacao a:hover {
+    color: #FFB000;
+    font-size: 1.3em;
+}
+
+/* RODAPE */
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
